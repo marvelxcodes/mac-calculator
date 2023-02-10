@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Hello World!</h1>
+        <h1 className='text-4xl font-helvetica-b'>Hello World</h1>
       </div>
     </div>
   )

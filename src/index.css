@@ -2,24 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @font-face {
-   font-family: "helvetica-bold";
-   font-weight: 800;
-   src: url("/Helvetica-Bold.ttf") format('woff');
+   font-family: "Helvetica-Light";
+   src: url("./assets/Helvetica-Light.ttf");
 }
 
 @font-face {
-   font-family: "helvetica-light";
-   src: url("/Helvetica-Light.ttf") format('woff');
-   font-weight: 400;
+   font-family: "Helvetica-Bold";
+   src: url("./assets/Helvetica-Bold.ttf");
 }
+
 
 body, html {
    padding: 0;
    margin: 0;
 }
-
+ 
 body * {
    box-sizing: border-box;
 }
@@ -32,5 +30,5 @@ button, textarea, input {
 h1, h2, h3, h4, h5, h6, p {
    padding: 0;
    margin: 0;
-   font-family: "heveltica", monospace;
+   font-family: "Helvetica-Light", monospace;
 }
