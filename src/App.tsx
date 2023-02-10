@@ -1,11 +1,13 @@
 import { useState } from 'react'
-import './App.css'
 
 function App() {
+  const [expression, setExpression] = useState<string>()
 
   return (
     <div className="App">
-      
+      <div className="container">
+        <h1>Hello World!</h1>
+      </div>
     </div>
   )
 }
